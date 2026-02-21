@@ -1,0 +1,45 @@
+{
+    "name": "Josh Home",
+    "weather": {
+        "officeId": "MPX",
+        "gridpoints": "108,72"
+    },
+    "stopGroups": {
+        "Eastbound": [
+            {
+                "id": "19315",
+                "walkingTime": 6,
+                "routes": ["3", "10", "17"]
+            },
+            {
+                "id": "51409",
+                "walkingTime": 10,
+                "routes": ["901", "902"]
+            },
+            {
+                "id": "17884",
+                "walkingTime": 11,
+                "routes": ["94"]
+            }
+        ],
+        "Westbound": [
+            {
+                "id": "19308",
+                "walkingTime": 5,
+                "routes": ["3", "10", "17"]
+            }
+        ],
+        "E Line": [
+            {
+                "id": "17951",
+                "walkingTime": 9,
+                "routes": ["925"]
+            },
+            {
+                "id": "17919",
+                "walkingTime": 9,
+                "routes": ["925"]
+            }
+        ]
+    }
+}
